@@ -1,0 +1,7 @@
+Un gerente de una empresa prestadora de servicios de internet necesita un algoritmo que permita realizar el cálculo del monto a pagar de la factura de consumo a 
+internet de un cliente de la empresa: para esto solicitar nombre y apellido del cliente y el tipo de servicio los tipos de servicio son 3:
+Debe calcular cuanto debe pagar dependiendo el tipo de servició. Mostrando el nombre, apellido y el monto a pagar.
+Tipos:
+1.	30 megas valor: $750 - 10% descuento
+2.	50 megas valor: $930 – 5% descuento 
+3.	100 megas valor: $1200
