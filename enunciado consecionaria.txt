@@ -1,0 +1,5 @@
+En una concesionaria de vehiculos te ofrecen motos o un autos a sus clientes. Con colores que aparecen a continuacion.
+Motos : rojo, blanco o negro 
+Autos : gris, azul o amarillo 
+Escribir un programa que pregunte al usario si quiere una moto o un auto y en funcion de su respuesta le muestre un menu de colores de cada vehiculo.
+Solo se puede elegir un color para su vehiculo . Al final se debe mostrar por pantalla si el vehiculo elegido es moto o auto y el color que lleva el mismo.
