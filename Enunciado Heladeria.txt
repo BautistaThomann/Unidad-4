@@ -1,0 +1,12 @@
+Problema:
+
+En una heladería, los clientes pueden elegir entre dos tipos de helado: chocolate y vainilla. Cada tipo de helado puede llevar un topping adicional. Los toppings disponibles son:
+
+Chocolate: Almendras y Caramelo
+Vainilla: Fresas y Nueces
+Escribe un programa que haga lo siguiente:
+
+Pregunte al usuario si quiere un helado de chocolate o de vainilla.
+Dependiendo de la elección del usuario, muestra un menú con los toppings disponibles para ese tipo de helado.
+Pregunta al usuario qué topping quiere agregar.
+Muestra un resumen final indicando el tipo de helado y el topping elegido
