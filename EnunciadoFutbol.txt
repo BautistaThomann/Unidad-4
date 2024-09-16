@@ -1,0 +1,17 @@
+#En un club de futbol es necesario separar a los chicos por categoria para poder empezar a entrenarlos. Los chicos mayores de 5 años estaran en la categoria A, Los chicos mayores de 10 años y menores de 12 estaran en la categoria B y los niños mayores de 12 años y menores de 16 estaran en la categoria C 
+
+#Se necesita elaborar un programa para facilitar el separar por categoria a los chicos  
+
+#El programa debe preguntar el nombre de los niños, edad y separarlos por categoria  
+
+
+
+# RESOLUCION
+nombre=input("ingrese tu nombre: ")
+edad=int(input("ingrese la edad que tiene: "))
+if edad==5: 
+    print("Usted pertenece a la categoria 'A'")
+elif edad >10 and edad<12 :
+    print("Usted pertenece a la categoria 'B'")
+elif edad >12 and edad<16:
+    print("Usted pertenece a la categoria 'C'")
