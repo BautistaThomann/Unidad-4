@@ -7,4 +7,4 @@ Hacer un programa que pregunte antes de entrar al boliche:
 	
 	- Edad (dependiendo la edad que tenga la persona mostrarle las diferentes pistas que hay).
 	- De donde viene (informar beneficios).
-	- Cuando ingrese al boliche, darle una bienvenida y a la vez mostrarle que esta el VIP, (preguntar si quiere ingresar o no, dependiendo la edad) si ingresa al VIP mostrarle: ¡Bienvenido al VIP!
+	- Cuando ingrese al boliche, darle una bienvenida y a la vez mostrarle que esta el VIP, (preguntar si quiere ingresar o no, dependiendo la edad)  si ingresa al VIP mostrarle: ¡Bienvenido al VIP!
