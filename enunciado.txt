@@ -1,0 +1,10 @@
+Enunciado:
+
+En el boliche Apertur ubicado en la cuidad de Villa María solo permiten la entrada a mayores de edad (+18), se puede ingresar al VIP; en este solamente permiten la entrada a mayores de 20 años.
+Preguntar si la persona viene de otro pueblo o cuidad, si es así informarle que tiene entrada gratis y una consumición gratuita, si no
+es así, continuar con el programa.
+Hacer un programa que pregunte antes de entrar al boliche:
+	
+	- Edad (dependiendo la edad que tenga la persona mostrarle las diferentes pistas que hay).
+	- De donde viene (informar beneficios).
+	- Cuando ingrese al boliche, darle una bienvenida y a la vez mostrarle que esta el VIP, (preguntar si quiere ingresar o no, dependiendo la edad) si ingresa al VIP mostrarle: ¡Bienvenido al VIP!
