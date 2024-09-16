@@ -1,0 +1,8 @@
+nombre=str(input("Ingrese su nombre: ")).upper()
+sexo=str(input("Ingrese su sexo: ")).upper()
+if nombre[0] < "M" and sexo=="femenino".upper():
+    print ("Grupo A")
+elif nombre[0] > "N" and sexo=="masculino".upper():
+    print("Grupo A")
+else:
+    print ("Grupo B")
