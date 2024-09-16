@@ -1,31 +1,22 @@
-def buscar_grupo_sexo():
-    sexo = str(input("Ingrese su sexo: "))
-    sexo_mayuscula = sexo.upper()
-    primer_letra_sexo = sexo_mayuscula[0]
-    if primer_letra_sexo > 'F':
-        buscar_grupo_masculino()
+try: 
+    nombre = input("Ingrese su nombre: ").capitalize()
+    sexo = input("Ingrese su sexo (hombre/mujer): ")
+
+    primera_letra = nombre.upper()
+
+    if sexo == "hombre":
+        if primera_letra > "N":
+            grupo = "Grupo A"
+        else:
+            grupo = "Grupo B"
+    elif sexo == "mujer":
+        if nombre < "M":
+            grupo = "Grupo A"
+        else:
+            grupo = "Grupo B"
     else:
-        buscar_grupo()
-
-def buscar_grupo_masculino():
-    nombre = str(input("Ingrese su nombre: "))
-    nombre_mayusculas = nombre.upper()
-    primer_letra = nombre_mayusculas[0]
-    if 'N' <=  primer_letra <= 'Z':
-        grupo = 'A'
-    else:
-        grupo = 'B'
-    print(grupo)
-
-
-def buscar_grupo():
-    nombre = str(input("Ingrese su nombre: "))
-    nombre_mayusculas = nombre.upper()
-    primer_letra = nombre_mayusculas[0]
-    if 'A' <=  primer_letra <= 'M':
-        grupo = 'A'
-    else:
-        grupo = 'B'
-    print(grupo)
-
-buscar_grupo_sexo()
+        raise ValueError ("Sexo no valido; ingrese *hombre o mujer*.")
+    print(f"Usted pertenese al {grupo}.")
+except ValueError as e:
+    print(f"ERROR: {e}")
+    
