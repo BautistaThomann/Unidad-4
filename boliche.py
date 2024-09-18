@@ -1,18 +1,37 @@
-print("Bienvenido a Elian")
-ciudad=int(input("Ciudad de origen:\n""1)Villa Maria\n""2)Otros\n""Respuesta:"))
-if ciudad==1:
-    print("Cobrar entrada")
-elif ciudad==2:
-    print("Entrada libre y gratuita")    
-edad=int(input("Ingrese su edad\n""Respuesta:"))
-if edad<18:
-    print("No puede ingresar")
-elif edad>18 and edad<20:
-    print("Entrada comun")
-else:
-    print("Entrada comun + acceso al vip")
-    pregunta=int(input("Quiere ingresar al vip?\n""1)Si\n""2)No\n""Respuesta:"))
-    if pregunta==1:
-        print("Bienvenido a Elian VIp!")
-    elif pregunta==2:
-        print("Bienvenido a Elian!")            
+try:
+    
+    edad = int(input("Ingrese su edad antes de ingresar al boliche: "))
+    if edad >= 18:
+        print("¡¡Bienvenido!!")
+    elif edad < 18:
+        print("Sos menor de edad, no puede ingresar.")
+        exit()
+    else:
+        raise ValueError ("No se ingresaron correctamente los datos.")
+    
+    de_donde_viene = str(input("¿Venis de otro pueblo o ciudad? si / no: "))
+
+    if de_donde_viene == "si":
+        print("Tenes entrada gratuita y una consumición gratis.")
+        if edad >= 20:
+            ingreso_vip = str(input("Usted puede ingresar al VIP, ¿Desea ingresar? si / no : "))
+            if ingreso_vip == "si":
+                print("¡Bienvenido al VIP!")
+            elif ingreso_vip == "no":
+                print("No se preocupe, ¡Disfrute del boliche!")
+            else:
+                raise ValueError ("No se ingresaron correctamente los datos.")
+    elif de_donde_viene == "no":
+        print("¡Disfrute del boliche!")
+        if edad >= 20:
+            ingreso_vip = str(input("Usted puede ingresar al VIP, ¿Desea ingresar? si / no : "))
+            if ingreso_vip == "si":
+                print("¡Bienvenido al VIP!")
+            elif ingreso_vip == "no":
+                print("No se preocupe, ¡Disfrute del boliche!")
+            else:
+                raise ValueError ("No se ingresaron correctamente los datos.")
+    else:
+        raise ValueError ("No se ingresaron correctamente los datos.")
+except ValueError as e:
+    print(f"ERROR: {e}")
